@@ -10,7 +10,7 @@ console.log(BMIMark);
 console.log(BMIJohn);
 console.log(markHigherBMI);
 
----- if/else conditions
+/*if/else condition*/
 const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
@@ -25,5 +25,17 @@ if(BMIMark > BMIJohn ){
 }else{
     console.log(`Mark's BMI ${BMIMark} is not greater than John's ${BMIJohn}!`);
 }
+
+/* Write your code below. Good luck! 🙂 */
+/*tenary condition*/
+const bill = 430;
+const tip = bill>= 50 && bill <=300 ? bill * 15/100 : bill * 20/100;
+const totalValue = bill + tip;
+console.log('The bill was ' + bill);
+console.log('The tip was ' + tip);
+console.log('The value was ' + totalValue);
+
+
+
 
 
